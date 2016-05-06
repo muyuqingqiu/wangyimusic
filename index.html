@@ -1,0 +1,904 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+*{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:none; vertical-align:top;}
+a{ text-decoration:none;}
+body{background:url(img/bodybj.png) repeat-x; position:relative;}
+.clear{zoom:1;}
+.clear:after{content:""; display:block; clear:both;}
+
+
+#main{ width:1423px; margin:0 auto;}
+#Atop{ width:1423px; position:relative; z-index:1000;}
+#Atop .AblackList{ height:70px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-1.png) repeat-x;}
+#Atop .AblackList .Alogo{ height:100%; background:url(img/Alogo.png) no-repeat 218px 0; float:left;}
+#Atop .AblackList .Alogo a{ height:100%; width:188px; display:block; margin-left:210px;}
+#Atop .AblackList .Aul{ float:left;}
+#Atop .AblackList .Aul li{ float:left; font-size:14px; line-height:70px; padding-left:19px; padding-right:22px;}
+#Atop .AblackList .Aul li a{ color:#cccccc;}
+#Atop .AblackList .Aul .ABg1{ height:70px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-3.png) no-repeat;}
+#Atop .AblackList .Aul .ABg2{ height:70px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-4.png) no-repeat  right center;}
+#Atop .AblackList .Aul .ABg3{ height:70px; padding-right:28px; background:url(file:///E|/%E7%BD%91%E6%98%93%E4%BA%91/img/A%E6%9C%AA%E6%A0%87%E9%A2%98-5.png) no-repeat right 22px;}
+
+#Atop .AblackList .Awhite{ float:left; width:210px; height:100%; margin-left:158px;  position:relative;}
+#Atop .AblackList .Awhite .img1{ height:100px; width:13px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-6.png) no-repeat; position:absolute;}
+#Atop .AblackList .Awhite .img2{ height:100px; width:20px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-8.png) no-repeat; position:absolute; left:13px;}
+#Atop .AblackList .Awhite .img3{ height:100px; width:13px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-7.png) no-repeat; position:absolute; right:0;}
+#Atop .AblackList .Awhite .Abiaodan{ height:31px; width:164px; position:absolute; left:33px; top:21px; border:none; background:#eaeaea; color:#9b9b9b;}
+#Atop .AblackList .Aenter{ float:left; font-size:12px; line-height:70px; padding-left:15px; color:#787878;}
+#Atop .AblackList .Aimg{ float:left; width:10px; height:100%; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-9.png) no-repeat 0 center; margin-left:11px;}
+
+#Atop .AredList{ height:35px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-10.png) repeat-x;}
+#Atop .AredList .AulR{ padding-left:420px;}
+#Atop .AredList .AulR li{ float:left; font-size:12px; line-height:35px; padding-right:59px;}
+#Atop .AredList .AulR li a{ color:#ffffff;}
+#Atop .AredList .AulR .sanjiao{ float:left; width:16px; height:8px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-12.png) no-repeat; position:relative; right:24px; bottom:7px;}
+#Atop .AredList .AulR .AliR{ float:left; height:35px; width:52px; background:url(img/A%E6%9C%AA%E6%A0%87%E9%A2%98-11.png) no-repeat; padding-left:10px; margin-right:-20px;}
+
+
+
+
+#Awangyuan{margin:0 auto;width:1423px;height:336px; background:#a4c2cd; position:relative;}
+#Atupian{width:729px;height:336px; background: url(img/awangyun1.jpg) no-repeat;margin-left:221px;float: left;}
+#Axiazai{width:254px;height:336px; background: url(img/awangyuan6.jpg) no-repeat; float:right;margin-right:219px;}
+#Axiazai .Akehuduan{ display:block; width:215px;height:56px; background:;margin-top:212px;margin-left:19px;font-size:0px;}
+#Axiazai .Ap{margin:12px 0 0 15px;}
+#Axiazai .Aa{font-size:12px; text-decoration:none;color:#8d8d8d;}
+#AL{ position:absolute;top:149px;left:170px;}
+#AR{position:absolute;top:149px;right:170px;}
+.Atupianbiao{ position:absolute;top:317px;left:502px;}
+.Atupiandian{ float:left;margin-right:17px;}
+#zmain{width:982px; margin:0 auto; border:1px solid #d3d3d3; border-bottom:none; margin-top:-1px;position:relative;}
+#Bmain{width:690px; margin:20px 0;padding:15px 20px 11px 20px;}
+.Btitle{width:690px; height:37px; border-bottom:2px #c10d0c solid;position:relative;}
+.Btitle h2{font-size:18px; line-height:37px; color:#333333; background:url(img/BtitleBg.png) no-repeat 11px 13px;padding-left:36px;float:left;}
+.Btitle ul{width:100%; height:37px; padding-left:135px;}
+.Btitle li{ float:left; padding-right:15px;}
+.Btitle li a,.BtitleR a{font-size:12px; line-height:37px; color:#666666;}
+.BtitleR{width:77px; height:37px; position:absolute; right:0; top:0; text-align:center;background:url(img/BtitleBg2.png) no-repeat 57px 15px;}
+
+
+#Bcontent{width:100%; height:449px;}
+#Bcontent .Bpic{width:140px; height:27px;background:url(img/BpicBg.png) no-repeat;position:absolute; left:0; top:113px; opacity:0.8;}
+#Bcontent .Bpic span{color:white;line-height:27px;font-size:12px;padding-left:30px;}
+#Bcontent ul{width:120%; margin-top:20px}
+#Bcontent li{width:142px; height:206px; float:left; margin-right:41px; margin-bottom:28px; position:relative;}
+#Bcontent .Bcrown{width:40px; height:40px;background:url(img/Bcrown.png) no-repeat; position:absolute;left:0; top:0;}
+#Bcontent .Bridio{width:140px; height:75px; background:url(img/Bradio.png) no-repeat 0 9px; text-indent:3em ;}
+#Bcontent li p{font-size:14px; line-height:25px; color:#000000;padding-top:4px;}
+#Bcontent li img{width:140px; height:140px;}
+#yhdl{ width:252px; height:124px; position:absolute; top:0; right:-1px;}
+#bj{height:122px; width:248px; border:1px solid #fff; background:url(img/dlbj.png) repeat-x; border-top:none; overflow:hidden;}
+#bjk{border-left:1px solid #d4d4d4; border-right:1px solid #d3d3d3; border-bottom:1px solid #b1b1b1;}
+#bj p{margin:15px 21px; font:11px "黑体"; color:#666666; line-height:22px;}
+#dldj{ margin-left:74px; display:block; width:98px; height:28px; background:url(img/dldj.png) repeat-x; border:1px solid #b80b12; border-radius:3px; font:14px "黑体"; color:#fff; text-align:center;line-height:28px; text-decoration:none;}
+#dldj:hover{background:url(img/dlhover.png) repeat-x;}
+#Dmain{width:250px;border:#d4d4d4 1px solid; position:absolute; top:124px; right:-1px; border-bottom:none; height:1270px;}
+#Dmain .Dcontent{width:210px; margin:0 auto;}
+#Dmain .Dtitle{ height:31px;line-height:31px;
+                border-bottom:#d4d4d4 1px solid;                padding-top:8px;}
+#Dmain .Dtitle h2{ font-size:12px; 
+                   float:left;}
+#Dmain .Dtitle h2 a{ color:#000;font-weight:bold;}
+#Dmain .Dtitle p{ font-size:12px; 
+                  float:right;}
+#Dmain .Dtitle p a{color:#666666;}
+.Dsinger{ padding-top:6px;}
+.Dsinger li{width:100%px;height:60px;
+                      border:#e9e9e9 1px solid;                      border-left:none;
+					  background:#fafafa;
+					  margin-top:14px;}
+
+.Dsinger li a{ }
+.Dsinger li .Dcenter{width:146px;height:60px;float:right;}
+.Dsinger li img{margin-top:-1px; float:left;}
+.Dsinger li h2{float:left; font-size:14px; margin-left:14px;line-height:31px;width:100px;color:#333333;}
+.Dsinger li p{ float:left; font-size:12px; color:#666666;margin-left:14px;line-height:26px;}
+.Dcenter:hover{ background:#f4f4f4;}
+.Dbottom{width:208px;height:28px; border:#c4c4c4 1px solid; border-radius:5px;
+         margin-top:14px; 
+		 text-align:center;line-height:26px;
+		 font-size:12px; font-weight:bold;
+		  background: url(img/%E7%BD%91%E6%98%93%E4%BA%91/4%E5%85%A5%E4%BD%8F%E6%AD%8C%E6%89%8B/%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%E4%BA%BA.png) repeat-x;}
+.Dcenter h2{ position:relative;}
+.Dcenter h2 .span1{ width:20px; height:12px;background:url(img/vpic.png) no-repeat;position:absolute;left:30px;top:8px;}
+.Dcenter h2 .spanv{ width:20px; height:12px;background:url(img/vpic.png) no-repeat;position:absolute;left:46px;top:8px;}
+.bottom{ margin-bottom:3px;}
+#b_newCD{ padding:0 20px; width:689px; height:248px; margin-bottom:32px;}
+#b_newCDT{ height:38px; border-bottom:2px #c10d0c solid}
+#b_newCDT .b_newCDTL{ background:url(img/b-1.png) 10px 13px no-repeat;height:100%; line-height:38px; text-indent:35px; font-size:18px; color:#000; font-weight:bold; }
+#b_newCDT .b_newCDTR{ background:url(img/b-2.png) 30px 17px no-repeat; float:right; padding-right:27px; font-size:12px; line-height:38px; color:#666666}
+#b_newCDT  a{color:#666666}
+#b_newCDcontent{ margin-top:20px; width:687px; height:186px; background:url(img/b-3.png);border:1px #d3d3d3 solid; font-size:12px; position:relative}
+#b_newCDcontent ul{ margin-top:29px;margin-left:28px}
+#b_newCDcontent .b_list1{ width:115px; float:left; margin-right:14px;line-height:18px}
+#b_newCDcontent .b_list1 .song a{color:#000; }
+#b_newCDcontent .b_list1 .singer a{color:#6a6a6a}
+#b_newCDcontent .b_list1 .b_img{ height:100px; background:url(img/b-5.png) no-repeat right center}
+#b_newCDcontent .b_list1 .song{ padding-top:5px; color:#000; font-weight:bold; background:url(b-6.png) no-repeat; }
+#b_newCDcontent .b_iconL{ width:7px; height:13px; background:url(img/b-11.png); position:absolute;left:9px; top:73px; }
+#b_newCDcontent .b_iconR{ width:7px; height:13px; background:url(img/b-12.png); position:absolute;right:9px; top:73px;}
+#b_newCDcontent .b_iconL a,#b_newCDcontent .b_iconR a{ display:block; width:100%; height:100%}
+#b_newCDcontent .b_list1 a:hover{ text-decoration:underline }
+	#cHot{ width:729px; height:572px;  }
+	#cHot .cHotTitle{ height:38px; width:689px; margin:0 auto; background:url(img/cHotTitleicon.png) no-repeat 10px 13px ; position:relative;}
+	#cHot .cHotTitle a:nth-of-type(1){ font-size:18px; font-family:"宋体"; font-weight:bold; float:left; margin-left:35px; margin-top:10px; color:#000;}
+	#cHot .cHotTitle a:nth-of-type(2){ color:#000; font-size:12px; font-family:"宋体"; float:right; width:50px; background:url(img/cHotTitlemore.png) no-repeat 30px 4px; margin-top:16px;}
+	#cHot .cHotContent{ width:689px; height:492px; border-top: 2px solid #c10d0c; margin:0 auto; clear:both;}
+	.cHotContent .cHotList{ width:688px; height:470px; border:1px solid #d3d3d3; border-right: none; margin-top:20px; position:relative;}
+	.cHotContent .cHotList a:hover{  text-decoration:underline;}
+	.cHotContent .cHotList .cHotList1{ width:228px; height:470px; border-right:1px solid #d3d3d3; font-size:0; float:left;}
+	.cHotContent .cHotList .cHotList2{ width:229px; }
+	
+	.cHotList .cHotList1 .cHotList1T{ background:#f4f4f4; height:118px; width:226px; margin:1px; margin-bottom:0; position:relative;}
+	.cHotList .cHotList2 .cHotList2T{ width:227px;}
+	.cHotList1 .cHotList1T .cHotList1TText{ width:118px; font-size:14px; font-weight:bold; float:right; margin-top:25px; color:#000;}
+	.cHotList1 .cHotList1T .cHotList1Timg{ width:98px; height:93px; position:absolute; top:18px; left:6px;}
+	.cHotList1 .cHotList1T .cHotList1Tplay{ width:22px; height:22px; display:block; background:url(img/cHotList1Tplay.png) no-repeat; position:absolute; left:108px; top:50px; }
+	.cHotList1 .cHotList1T .cHotList1Tcolt{ width:20px; height:19px; background:url(img/cHotList1Tcolt.png) no-repeat; position:absolute; left:140px; top:52px;}
+	.cHotList1 .cHotList1M{  background:#f4f4f4; position:relative; margin:1px; margin-top:0;}
+	
+	.cHotList1 .cHotList1M li{ height:32px; color:#767676; text-indent:27px; line-height:32px; font-size:16px; font-family:Arial, Helvetica, sans-serif; position: relative;}
+	.cHotList1 .cHotList1M li span{ color:#c10d0c;}
+	.cHotList1 .cHotList1M li a{ color:#000;height:32px; line-height:32px; font-size:12px; display:block; text-indent:0;position:absolute; top:0px; left:50px; z-index:10;}
+	.cHotList1 .cHotList1M li .blackbox{ width:228px; height:32px; background:rgba(185,185,185,0.2); position:absolute; top:0px; left:-1px; z-index:1;}
+	.cHotList2 .cHotList2M li .blackbox{ width:229px;}
+	.cHotList1 .cHotList1B{ width:229px; height:31px; background:rgba(185,185,185,0.2); position:absolute; left:-1px; bottom:0px; }
+	.cHotList1 .cHotList1B .all{ font-size:12px; margin-left:93px;  width:60px;}
+	
+	#cHot .hide{ position:absolute; left:146px; top:7px; width:75px; height:17px; z-index:15; display:none;}
+	#cHot .hide a{ display:block; height:17px; width:17px; margin-right:8px; float:left; position:static;}
+	#cHot .hide a:nth-of-type(1){ background:url(img/cHotListMplay.png) no-repeat;}
+	#cHot .hide a:nth-of-type(2){ background:url(img/cHotListMplus.png) no-repeat;}
+	#cHot .hide a:nth-of-type(3){ background:url(img/cHotListMcolt.png) no-repeat;}
+	#cHot .cHotList1M li:hover .cactive{ width:96px;  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;} 
+	#cHot .cHotList1M li:hover .cshow{ display:block;}
+	#cmain{width:100% ;height:124px;background:#f9f9f9;margin :0 auto;border-bottom:2px black solid; border-top:1px solid #d5d5d5;}
+#cfoot{width:980px;height:124px;background:#f9f9f9;margin: 0 auto; overflow:hidden;}
+#cfoot .ccontent1{width:246px;height:43px;background:url(img/cicon1.png) no-repeat 0 4px  #f9f9f9;font-size:12px;color:#999999;padding-left:48px; float:left;margin-top:28px;}
+#cfoot .ccontent1 li{line-height:22px;}
+#cfoot .ccontent1 .cfont1{color:#666666;}
+
+
+#cfoot .ccontent2{width:509px;height:43px;padding-left:50px;padding-right:71px; background:#f9f9f9;float:left;margin-left:-75px;margin-right:87px;margin-top:28px;}
+#cfoot .ccontent2 a{color:#999999;font-size:12px;}
+#cfoot .ccontent2 li{color:#999999;line-height:22px;font-size:12px;}
+#cfoot .ccontent2 .cword1{float:left;}
+#cfoot .ccontent2 .cword2{float:left;}
+#cfoot .ccontent2 .cword3{float:left;}
+#cfoot .ccontent2 .cword4{float:left;}
+#cfoot .ccontent2 .cword5{clear:both;}
+#cfoot .ccontent2 a:hover{text-decoration:underline;}
+
+#cfoot .ccontent3{width:69px;height:43px;background:url(img/cicon2.png) no-repeat 0 15px #f9f9f9;padding-left:22px;line-height:43px;float:left;margin-left:-124px;margin-top:28px;}
+#cfoot .ccontent3 a{color:#999999;font-size:12px;}
+#cfoot .chidden{width:246px;height:43px;display:block;background:rgba (0,0,0,0) ; float:left;margin-top:-43px;}
+
+
+
+	#musicPlayer{ width:100%;  position:fixed; bottom:0px; z-index:100; border-bottom:1px solid #000;}
+	#musicPlayer:hover .musicPlayerB{ display:block;}
+	#musicPlayer .musicPlayerLock{ height:16px; width:100%;  margin-bottom:-2px; background:url(img/musicPlatericon1.png) no-repeat right 0; float: left;}
+	#musicPlayer .musicPlayerB{ width:100%; height:45px; border-top:1px solid #000;  background:url(img/musicPlayerbg.png) repeat-x; clear:both; margin-top:-2px; display:none;}
+	#musicPlayer .musicPlayerContent{ width:982px; height:100%; margin:0 auto; position: relative;}
+	.musicPlayerContent .musicPlayerP{ width:108px; height:33px; position:absolute; left:17px; top:6px;}
+	.musicPlayerContent .musicPlayerP a:nth-of-type(1){ background:url(img/musicPlayerbef.png) no-repeat; width:24px; height:25px; margin-right:12px; display:block; float:left; margin-top:5px;}
+	.musicPlayerContent .musicPlayerP a:nth-of-type(2){ background: url(img/musicPlayerPlay.png) no-repeat; width:32px; height:33px; margin-right:12px; display:block;  float:left;}
+	.musicPlayerContent .musicPlayerP a:nth-of-type(3){ background:url(img/musicPlayernext.png) no-repeat; width:24px; height:25px; display:block;  float:left; margin-top:5px;}
+	 .progress{ width:589px; height:34px; position:absolute; left:172px; top:5px;}
+	.progress .progressPic{ width:34px; height:34px; background:url(img/progressPic.png) no-repeat; float:left;}
+	.progress .progressBar{ width:461px; height:17px; background:url(img/.progressBarbg.png) no-repeat 16px 5px; float:left; margin-left:9px; margin-top:17px; }
+	.progressBar .progressBaricon{ width:16px; height:17px; background:url(img/.progressBaricon.png) no-repeat;}
+	.progressBar .progressBaricon a{ width:100%; height:100%; display:block;}
+	.progress p{ font-size:10px; height:17px;  margin-top:17px; float:left; text-indent:13px; color:#9a9a9a;}
+	.progress p span{ color:#6d6d6d;}
+	#musicPlayer .musicPlayerFun{ width:187px; height:22px; position:absolute; right:0; top:13px;}
+	.musicPlayerFun .musPlFunCole{ width:18px; height:18px; background:url(img/musPlFunCole.png) no-repeat; float:left;}
+	.musicPlayerFun .musPlFunShare{ width:17px; height:17px; background:url(img/musPlFunShare.png) no-repeat; margin-left:9px; margin-top:1px; float:left;}
+	.musicPlayerFun .musPlFunVos{ width:19px; height:19px; background:url(img/musPlFunVos.png) no-repeat; margin-left:28px; float:left;}
+	.musicPlayerFun .musPlFunRet{ width:19px; height:18px; background:url(img/musPlFunRet.png) no-repeat; margin-left:8px; float:left;}
+	.musicPlayerFun .musPlFunList{ width:56px; height:22px; background:url(img/musPlFunList.png) no-repeat; margin-left:8px; float:left;}
+	.musicPlayerFun a{ width:100%; height:100%; display:block;} 
+	.bodygotop{ width:47px; height:43px; background:url(img/bodytop.png) no-repeat; position:fixed; bottom:161px; right:164px;}
+	.bodygotop a{ width:100%; height:100%; display:block;}
+</style>
+</head>
+<body>
+<div id="dixian"></div>
+<div id="main">
+
+
+<div id="Atop">
+	<div class="AblackList">
+    	<div class="Alogo">
+        	<a href="#"></a>
+        </div>
+        <ul class="Aul">
+        	<li class="ABg1"><a href="#">发现音乐</a></li>
+            <li class="ABg2"><a href="#">我的音乐</a></li>
+            <li class="ABg2"><a href="#">朋友</a></li>
+            <li class="ABg3"><a href="#">下载客户端</a></li>
+        </ul>
+        <div class="Awhite">
+        	<div class="img1"></div>
+            <div class="img2"></div>
+            <input type="text" class="Abiaodan" value="单曲/歌手/专辑/歌单/用户">
+            <div class="img3"></div>
+        </div>
+        <a class="Aenter "href="">登录</a>
+        <div class="Aimg"></div>
+    </div>
+    
+    <div class="AredList">
+    	<ul class="AulR">
+        	<li>
+            	<a class="AliR" href="#">推荐</a>
+                <div class="sanjiao"></div>
+            </li>
+            <li><a href="#">排行榜</a></li>
+            <li><a href="#">歌单</a></li>
+            <li><a href="#">主播电台</a></li>
+            <li><a href="#">歌手</a></li>
+            <li><a href="#">新碟上架</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+<div id="Awangyuan" class="clear">
+  <div id="Atupian">
+  <div class="Atupianbiao">
+    <ul  class="clear">
+    <li class="Atupiandian"><a href="#"><img src="img/awangyuan2.jpg"></a></li>
+    <li class="Atupiandian"><a href="#"><img src="img/awangyuan2.jpg"></a></li>
+    <li class="Atupiandian"><a href="#"><img src="img/awangyuan2.jpg"></a></li>
+    <li class="Atupiandian"><a href="#"><img src="img/awangyuan2.jpg"></a></li>
+    <li class="Atupiandian"><a href="#"><img src="img/awangyuan2.jpg"></a></li>
+    <li class="Atupiandian"><a href="#"><img src="img/awangyuan3.jpg"></a></li>
+    <li class="Atupiandian"><a href="#"><img src="img/awangyuan2.jpg"></a></li>
+    <li class="Atupiandian"><a href="#"><img src="img/awangyuan2.jpg"></a></li>
+  </ul>
+  </div>
+  </div>
+  <div id="Axiazai">
+    <p>
+    <a href="#" class="Akehuduan">下载客户端</a>
+    </p>
+    <p class="Ap">
+    <a href="#" class="Aa">
+    PC 安卓 iPhone WP iPad Mac 六大客户端 
+    </a>
+    </p>
+  </div>
+  <a href="#"><img src="img/awangyuan4.jpg" id="AL"></a>
+  <a href="#"><img src="img/awangyuan5.jpg" id="AR"></a> 
+</div>
+<div id="zmain">
+<div id="Bmain">
+	<div class="Btitle clear">
+    	<h2>热门推荐</h2>
+        <ul>
+            <li><a href="#">卓爷&nbsp;| </a></li> 
+            <li><a href="#">蛟爷&nbsp;| </a></li> 
+            <li><a href="#">涵哥&nbsp;| </a></li> 
+			<li><a href="#">达哥&nbsp;| </a></li> 
+            <li><a href="#">&nbsp;晨哥</a></li> 
+        </ul>
+        <div class="BtitleR">
+        	<a href="#">更多</a>
+            </div>
+     </div>
+     
+     <div id="Bcontent" class="clear">
+     	<ul>
+        	<li>
+                <img src="img/Bmusic.png">
+                <p>卓爷带领我们前进</p>
+                <div class="Bpic"><span>10万</span></div>
+            </li>
+            
+            <li>
+                <img src="img/Bmusic.png">
+                <p>蛟爷辅助卓爷冲锋陷阵</p>
+                <div class="Bpic"><span>20万</span></div>
+            </li>
+            
+        	<li>
+                <img src="img/Bmusic.png">
+                <p>涵哥，达哥在前面冲锋我等殿后</p>
+                <div class="Bpic"><span>30万</span></div>
+            </li>
+            
+        	<li>
+                <img src="img/Bmusic.png">
+                <p class="Bridio">我等在后面疯狂输出</p>
+                <div class="Bpic"><span>40万</span></div>
+            </li>
+            
+        	<li>
+                <img src="img/Bmusic.png">
+                <p>日出东方方方方方方方方方</p>
+                <div class="Bpic"><span>50万</span></div>
+                <div class="Bcrown"></div>
+            </li>
+            
+        	<li>
+                <img src="img/Bmusic.png">
+                <p class="Bridio">唯我不败败败败败败败败败</p>
+                <div class="Bpic"><span>60万</span></div>
+            </li>
+            
+        	<li>
+                <img src="img/Bmusic.png">
+                <p>视界之巅巅巅巅巅巅巅巅巅巅巅巅巅巅</p>
+                <div class="Bpic"><span>70万</span></div>
+            </li>
+            
+        	<li>
+                <img src="img/Bmusic.png">
+                <p class="Bridio">千秋万代代代代代代代代代代</p>
+                <div class="Bpic"><span>80万</span></div>
+            </li>
+
+        	
+        </ul>
+
+     </div>
+</div>
+<div id="yhdl">
+    	<div id="bjk">
+    		<div id="bj">
+            	<p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+                <a href="#" id="dldj">用户登录</a>
+            </div>
+        </div>
+    </div>
+    <div id="Dmain">
+     <div class="Dcontent">
+      <div class="Dtitle clear">
+        <h2>入驻歌手</h2>
+        <p><a href="http://music.163.com/#/discover/artist/signed/">查看全部></a></p>
+     </div>
+      <ul class="Dsinger clear">
+       <li>
+           
+         <a href="http://music.163.com/#/user/home?id=29879272" target="_blank">
+         <img src="img/张惠妹.png"> 
+       <div class="Dcenter">
+        <h2>张惠妹aMEI</h2>
+        <p>台湾歌手张惠妹</p>
+       </div>
+      </a>
+       </li>
+       <li>
+       <a href="http://music.163.com/#/user/home?id=188304" target="_blank">
+       <img src="img/尚雯婕.png">
+        <div class="Dcenter">
+        <h2>尚雯婕</h2>
+        <p>原创电子唱作</p>
+        </div>
+        </a>
+        </li>
+       <li>
+       <a href="http://music.163.com/#/user/home?id=200645" target="_blank">
+       <img src="img/羽泉.png">
+        <div class="Dcenter">
+        <h2>羽泉组合</h2>
+        <p>国内知名演员组合 ...</p>
+        </div>
+        </a>
+       </li>
+       <li>
+       <a href="http://music.163.com/#/user/home?id=9753203" target="_blank">
+        <img src="img/李志.png">
+        <div class="Dcenter">
+        <h2>李志</h2>
+        <p>个体音乐人李志</p>
+        </div>
+        </a>
+       </li>
+       <li>
+       <a href="http://music.163.com/#/user/home?id=1742138" target="_blank">
+       <img src="img/马頔.png">
+        <div class="Dcenter">
+        
+        <h2>马頔麻油叶</h2>
+        <p>民谣音乐人</p>
+        </div>
+       </a>
+       </li>
+      </ul>
+      <a href="http://music.163.com/recruit" target="_blank">
+      <input class="Dbottom" type="button" value="申请成为网易音乐人" ></a>
+        
+     </div>
+     <div class="Dcontent">
+      <div class="Dtitle clear">
+        <h2>热门DJ</h2>
+     </div>
+      <ul class="Dsinger clear">
+       <li>
+           
+         <a href="http://music.163.com/#/user/home?id=29879272" target="_blank">
+         <img src="img/灵伟.png"> 
+       <div class="Dcenter">
+        <h2>灵伟 <span class="span1"></span></h2>
+        <p>电台DJ、资深乐评人</p>
+       </div>
+      </a>
+       </li>
+       <li>
+       <a href="http://music.163.com/#/user/home?id=188304" target="_blank">
+       <img src="img/庞舸.png">
+        <div class="Dcenter">
+        <h2>庞舸 <span class="span1"></span></h2>
+        <p>深圳电台飞扬971主持人</p>
+        </div>
+        </a>
+        </li>
+       <li>
+       <a href="http://music.163.com/#/user/home?id=200645" target="_blank">
+       <img src="img/林海.png">
+        <div class="Dcenter">
+        <h2>林海 <span class="span1"></span></h2>
+        <p>著名音乐节目主持人</p>
+        </div>
+        </a>
+       </li>
+       <li>
+       <a href="http://music.163.com/#/user/home?id=9753203" target="_blank">
+        <img src="img/阿鹏叔.png">
+        <div class="Dcenter">
+        <h2>阿鹏叔<span class="spanv"></span></h2>
+        <p>桒悳SOUDN创办人</p>
+        </div>
+        </a>
+       </li>
+       <li class="bottom">
+       <a href="http://music.163.com/#/user/home?id=1742138" target="_blank">
+       <img src="img/DJ晓苏.png">
+        <div class="Dcenter">
+        
+        <h2>DJ晓苏<span class="spanv"></span></h2>
+        <p>独立DJ，CRI旅游广播</p>
+        </div>
+       </a>
+       </li>
+      </ul>
+  
+        
+     </div>
+</div>
+    <div id="b_newCD">
+    	<div id="b_newCDT">
+        	<div class="b_newCDTR"><a href="http://music.163.com/#/discover/album/">更多</a>
+            </div>
+            <div class="b_newCDTL"><a href="http://music.163.com/#/discover/album/" style=" color:#000;">新碟上架</a>
+            </div>
+        </div>
+        <div id="b_newCDcontent">
+        	<ul class="clear">
+        		<li class="b_list1">
+                	<p class="b_img"><a href="http://music.163.com/#/album?id=3414193"><img src="img/b-4.png"></a></p>
+                    <p class="song"><a href="http://music.163.com/#/album?id=3414193">Blackstar</a></p>
+                    <p class="singer"><a href="http://music.163.com/#/album?id=3414193">David Bowie</a></p>
+                </li>
+                <li class="b_list1">
+                	<p class="b_img"><a href="http://music.163.com/#/album?id=34425077"><img src="img/b-7.png"></a></p>
+                    <p class="song"><a href="http://music.163.com/#/album?id=34425077">Brother</a></p>
+                    <p class="singer"><a href="http://music.163.com/#/album?id=34425077">窦靖童</a></p>
+                </li>
+                <li class="b_list1">
+                	<p class="b_img"><a href="http://music.163.com/#/album?id=34426030"><img src="img/b-8.png"></a></p>
+                    <p class="song"><a href="http://music.163.com/#/album?id=34426030">ENTRY SINGLE'...</a></p>
+                    <p class="singer"><a href="http://music.163.com/#/album?id=34426030">WINNER</a></p>
+                </li>
+                <li class="b_list1">
+                	<p class="b_img"><a href="http://music.163.com/#/album?id=3443129"><img src="img/b-9.png"></a></p>
+                    <p class="song"><a href="http://music.163.com/#/album?id=3443129">Star Wars:The U...</a></p>
+                    <p class="singer"><a href="http://music.163.com/#/album?id=3443129">John Williams</a></p>
+                </li>
+                <li class="b_list1">
+                	<p class="b_img"><a href="http://music.163.com/#/album?id=34420153"><img src="img/b-10.png"></a></p>
+                    <p class="song"><a href="http://music.163.com/#/album?id=34420153">Try</a></p>
+                    <p class="singer"><a href="http://music.163.com/#/album?id=34420153">派伟俊</a></p>
+                </li>
+            </ul>
+            <div class="b_iconL">
+            	<a href="#"></a>
+            </div>
+            <div class="b_iconR">
+            	<a href="#"></a>
+            </div>
+        </div>
+    </div>
+    	<div id="cHot">
+    	<div class="cHotTitle">
+        	<a href="#">榜单</a>
+            <a href="#">更多</a>
+        </div>
+        <div class="cHotContent">
+        	<div class="cHotList">
+                <div style="width:700px;">
+                    <div class="cHotList1">1
+                        <div class="cHotList1T">
+                            <a href="#" class="cHotList1TText">云音乐飙升榜</a>
+                            <div class="cHotList1Timg">
+                                <a href="#"><img src="img/cHotListTimg1.png"></a>
+                            </div>
+                            <a href="#" class="cHotList1Tplay"></a>
+                            <a href="#" class="cHotList1Tcolt"></a>
+                        </div>
+                        <ul class="cHotList1M">
+                            <li><span>1</span>
+                                <a href="#" class="cactive">因为遇见你</a>
+                            	<div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                              
+                                <div class="blackbox"></div>
+                            </li>
+                            <li><span>2</span>
+                            	<a href="#" class="cactive">Brother</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li><span>3</span>
+                                <a href="#" class="cactive">似水年华</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>4
+                            	<a href="#" class="cactive">잘 지내고 있니</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>5
+                                <a href="#" class="cactive">Try</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>6
+                            	<a href="#" class="cactive">不为谁而作的歌(Live)</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>7
+                                <a href="#" class="cactive">I am Love</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>8
+                                <a href="#" class="cactive">可惜没如果(Live)</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>9
+                                <a href="#" class="cactive">Let you go</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>10
+                            	<a href="#" class="cactive">棒棒哒</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li style=" height:31px;">
+                                 <div class="cHotList1B"><a href="#" class="all">查看全部></a></div>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                    
+                    <div class="cHotList1 cHotList2">1
+                        <div class="cHotList1T cHotList2T">
+                            <a href="#" class="cHotList1TText">云音乐新歌榜</a>
+                            <div class="cHotList1Timg">
+                                <a href="#"><img src="img/cHotListTimg2.png"></a>
+                            </div>
+                            <a href="#" class="cHotList1Tplay"></a>
+                            <a href="#" class="cHotList1Tcolt"></a>
+                        </div>
+                        <ul class="cHotList1M cHotList2M">
+                            <li><span>1</span>
+                                <a href="#" class="cactive">可念不可说</a>
+                                  <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li><span>2</span>
+                            	<a href="#" class="cactive">因为遇见你</a>
+                                  <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li><span>3</span>
+                                <a href="#" class="cactive">Try</a>
+                                  <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>4
+                            	<a href="#" class="cactive">斑马, 斑马</a>
+                                  <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>5
+                                <a href="#" class="cactive">Brother</a>
+                                  <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>6
+                            	<a href="#" class="cactive">不完美小孩(Live)</a>
+                                  <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>7
+                                <a href="#" class="cactive">Dream</a>
+                                  <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>8
+                                <a href="#" class="cactive">花房姑娘(Live)</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>9
+                                <a href="#" class="cactive">漩涡</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>10
+                            	<a href="#" class="cactive">野生动物</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li style=" height:31px;">
+                                 <div class="cHotList1B"><a href="#" class="all">查看全部></a></div>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                    
+                    <div class="cHotList1 cHotList3">1
+                        <div class="cHotList1T">
+                            <a href="#" class="cHotList1TText">网易原创歌曲榜</a>
+                            <div class="cHotList1Timg">
+                                <a href="#"><img src="img/cHotListTimg3.png"></a>
+                            </div>
+                            <a href="#" class="cHotList1Tplay"></a>
+                            <a href="#" class="cHotList1Tcolt"></a>
+                        </div>
+                        <ul class="cHotList1M">
+                            <li><span>1</span>
+                                <a href="#" class="cactive">人嫁</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li><span>2</span>
+                            	<a href="#" class="cactive">西窗的雨</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li><span>3</span>
+                                <a href="#" class="cactive">来信</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>4
+                            	<a href="#" class="cactive">迷失北京</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>5
+                                <a href="#" class="cactive">新娘阿花 </a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>6
+                            	<a href="#" class="cactive">你带给我的 不插点(Live)</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>7
+                                <a href="#" class="cactive">爽子从地球经过</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>8
+                                <a href="#" class="cactive">通利福尼亚(Live)</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li>9
+                                <a href="#" class="cactive">无尽之地 The Land Of Endless</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <div class="blackbox"></div>
+                            </li>
+                            <li>10
+                            	<a href="#" class="cactive">你</a>
+                                <div class="hide cshow">
+                                	<a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </li>
+                            <li style=" height:31px;">
+                                 <div class="cHotList1B"><a href="#" class="all">查看全部></a></div>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+</div>
+<div id="cmain">
+	<div id="cfoot">
+    	
+		<ul class="ccontent1">
+    		<li class="cfont1">独立音乐人招募计划</li>
+        	<li>加入我们即将与亿万乐迷互动</li>        
+    	</ul>
+		<ul class="ccontent2">
+	    <li class="cword1"><a href="#">关于网易</a>-</li>
+        	<li class="cword2"><a href="#">客户服务</a>-</li>
+        	<li class="cword3"><a href="#">服务条款</a>-</li>
+        	<li class="cword4"><a href="#">网站导航</a> 网易公司版权所有©1997-2016</li>
+        	<li class="cword5">网络文化经营许可证:<a href="#">浙网文[2013]0332-034号</a>
+    	</ul>
+        
+    	<ul class="ccontent3">
+    		<li><a href="#">意见反馈</a></li>           
+   	  	</ul>
+        <a class="chidden" href="#"></a>
+       
+        
+      	
+</div>
+</div>
+</div>
+
+
+
+<div class="bodyFLock">
+        <div id="musicPlayer">
+                <div class="musicPlayerLock"></div>
+                <div class="musicPlayerB">
+                    <div class="musicPlayerContent">
+                        <div class="musicPlayerP">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <div class="progress">
+                            <div class="progressPic"></div>
+                            <div class="progressBar">
+                                <div class="progressBaricon"><a href="#"></a></div>
+                            </div>
+                            <p>00:00<span>/00:00</span></p>
+                        </div>
+                        <div class="musicPlayerFun">
+                            <div class="musPlFunCole"><a href="#"></a></div>
+                            <div class="musPlFunShare"><a href="#"></a></div>
+                            <div class="musPlFunVos"><a href="#"></a></div>
+                            <div class="musPlFunRet"><a href="#"></a></div>
+                            <div class="musPlFunList"><a href="#"></a></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+	</div>
+    <div class="bodygotop">
+    	<a href="#Atop"></a>
+    </div>
+</body>
+</html>
